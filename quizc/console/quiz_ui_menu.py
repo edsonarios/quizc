@@ -61,7 +61,6 @@ class QuestionUIMenu(object):
             return None
 
         builder = QuestionBuilder(title, question_type)
-
         if question_type.has_additional_data():
             builder.additional_data = menu.ask_additional_data()
 
